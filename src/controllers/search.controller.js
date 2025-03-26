@@ -1,5 +1,6 @@
 import { asyncHandler } from "../utils/asyncHandler.js";
-import { User, Post } from "../models/user.model.js";
+import { User } from "../models/user.model.js";
+import { Post } from "../models/post.model.js";
 import { ApiResponse } from "../utils/ApiResponse.js";
 
 const globalSearch = asyncHandler(async (req, res) => {
